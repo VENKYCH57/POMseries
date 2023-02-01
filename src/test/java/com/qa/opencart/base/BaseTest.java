@@ -9,7 +9,6 @@ import org.testng.asserts.SoftAssert;
 
 import com.qa.opencart.factory.DriverFactory;
 import com.qa.opencart.pages.LoginPage;
-import com.qa.opencart.pages.RegistrationPage;
 import com.qa.opencart.pages.cameraPage;
 
 public class BaseTest {
