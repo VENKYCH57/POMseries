@@ -45,7 +45,6 @@ public class LoginPage {
 
 	@Step("login with username :{0} and password :{1}")
 	public cameraPage doLogin(String un, String pwd) {
-		System.out.println("username :"+un+"and password :"+pwd);
 		elementutil.doActSendkeys(emailid, un);
 		elementutil.doSendKeys(password, pwd);
 		// elementutil.doClick(registerlink);
